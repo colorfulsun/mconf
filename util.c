@@ -9,7 +9,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "lkc.h"
-#include "../include/curses.h"
 /* file already present in list? If not add it */
 struct file *file_lookup(const char *name)
 {
